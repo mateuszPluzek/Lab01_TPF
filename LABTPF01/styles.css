@@ -35,16 +35,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    text-align: center;
+    align-items: center;
 }
 
-.register-form input {
+.register-form .register-input {
     padding: 0.75em;
     border-radius: 5px;
     background-color: #FAFAFF;
     color: #30343F;
     box-shadow: inset 1px 1px 2px rgb(0,0,0);
-    border: 0;
+    border: none;
     font-family: "Instrument Sans";
+    width: 100%;
 }
 
 .ToS {
@@ -54,4 +57,18 @@ body {
 .title {
     text-align: center;
     font-size: 2em;
+}
+
+.register-form button {
+    width: 70%;
+    padding: 1em;
+    border-radius: 90px;
+    color: #FAFAFF;
+    background: linear-gradient(#4258B0, #1E2749);
+    font-family: "Instrument Sans";
+    border: none;
+}
+
+.register-form button:hover {
+    background: #0d1844;
 }
